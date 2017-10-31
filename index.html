@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				font-family: 'Ubuntu', sans-serif;
+			}
+
+			.header,
+			.footer {
+				width: 100%;
+				height: 50px;
+				background-color: #333;
+			}
+
+			.header-buttons,
+			.social-media {
+				width: 50px;
+				height: 50px;
+				border: none;
+				margin-left: -4px;
+			}
+
+			.header > span {
+			    color: #fff;
+			    text-transform: uppercase;
+			    top: 30px;
+			    width: auto;
+			    margin-top: -14px;
+			    float: left;
+			    position: relative;
+			    margin-left: 20px;
+			}
+
+			.sandwish {
+			    float: left;
+			    position: relative;
+				background-color: #fff;
+			}
+
+			.sandwish span {
+			    background-color: #333;
+			    width: 20px;
+			    height: 3px;
+			    float: left;
+			    position: relative;
+			    margin-left: 15px;
+			    margin-bottom: 3px;
+			}
+
+			.container-header-buttons,
+			.container-footer-buttons {
+				float: right;
+			}
+
+			.search {
+			    background-color: #3791A9;
+			    background-image: url(search.png);
+			    background-size: 20px;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			}
+
+			.modal {
+				background-color: #53BDBB;
+			}
+
+			.modal > span {
+			    border: solid 2px #fff;
+			    background-color: #53BDBB;
+			    width: 10px;
+			    height: 10px;
+			    position: absolute;
+			    top: 14px;
+			}
+
+			.header-buttons-ico-01 {
+			    top: 19px !important;
+			    right: 17px;
+			}
+
+			.footer {				
+  				box-sizing: border-box;
+				padding: 0 0 0 50px;
+			}
+
+			.footer nav {
+			    padding-top: 15px;
+			    text-transform: uppercase;
+			    width: 50%;
+			    position: relative;
+			    float: left;
+			}
+
+			.footer ul a li {
+				display: inline-block;
+				color: #fff;
+				margin-right: 40px;	
+				font-size: 12px;
+			}
+
+			.twitter {
+				background-color: #2F2F2F;
+			    background-image: url(twit.png);
+			    background-size: 20px;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			}
+
+			.facebook {
+				background-color: #363636;
+			    background-image: url(facebook.png);
+			    background-size: 20px;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			}
+
+			.box-filter {
+			    width: 50px;
+			    height: 20px;
+			    display: inline-block;
+			    background-color: #54BCBD;
+			    color: #fff;
+			    margin-right: -4px;
+			    text-transform: uppercase;
+			    font-size: 13px;
+			    line-height: 19px;
+			}
+
+			.tit-filter:before {
+			    content: "";
+			    display: inline-block;
+			    vertical-align: middle;
+			    margin-right: 25px;
+			    width: 0;
+			    height: 0;
+			    border-top: 0px solid transparent;
+			    border-bottom: 20px solid transparent;
+			    border-left: 33px solid #54BCBD;
+			    margin-right: -4px;	
+			}
+
+		</style>
+	</head>
+	<body>    
+	    <header class="header">
+	    	<button class="header-buttons sandwish">
+	    		<span></span>
+	    		<span></span>
+	    		<span></span>
+	    	</button>
+	    	<span>Beeldtest</span>
+	    	<div class="container-header-buttons">
+		    	<button class="header-buttons search">
+		    	</button>
+		    	<button class="header-buttons modal">
+		    		<span class="header-buttons-ico-01"></span>
+		    		<span class="header-buttons-ico-02"></span>
+		    	</button>
+		    </div>
+	    </header>
+  <section class="hero">
+      
+      <div class="opacidade"> 
+      </div>
+      
+      <div class="hero__text">
+        <h1>
+          Het Klimaat
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, in, corporis, veritatis laboriosam necessitatibus ab sint vero odio ea est fugiat facilis aspernatur suscipit eos tempora dolores sapiente maiores qui?
+        </p>
+        
+      </div>
+        <ul class="hero__links">
+          <li>
+            <a  class="botao" href="http://example.com">Miliey</a>
+            </li>
+          <li>
+            <a  class="botao" href="http://example.com">Opwarming</a>
+          </li>
+          <li>
+            <a  class="botao" href="http://example.com">Aarde</a>
+          </li>
+        </ul>
+    </section>
+  <section>
+      <nav>
+        <ul class="links">
+            
+            <li>
+              <img src="play.png" alt="símbolo de play" >
+              <h3>26 VIDEOS</h3>
+            </li>
+            <li>
+              <img src="sound.png" alt="símbolo de play" >
+              <h3>13 OPNAMES</h3>
+            </li>
+            <li>
+              <img src="documento.png" alt="símbolo de play" >
+              <h3>5 DOCUMENTEN</h3>
+            </li>
+            <li>
+              <img src="foto.png" alt="símbolo de play" >
+              <h3>8 FOTOS</h3>
+            </li>
+        </ul>
+      </nav>
+  </section>
+  
+   <section class="section-resultados">
+      <div class="card-central">
+        <img class="cerdcentral__miniatura" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Eyjafjallaj%C3%B6kull.jpeg" width="270px" alt="">
+        <div class="cardcentral__conteudo">
+            <p class="titulo-card">Iceland 2017</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, amet, aliquam, ut, minima illo libero facere maxime ea iusto ullam tempore.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="cardcentral__acoes">
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQxLjk5OSA0MS45OTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQxLjk5OSA0MS45OTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTM2LjA2OCwyMC4xNzZsLTI5LTIwQzYuNzYxLTAuMDM1LDYuMzYzLTAuMDU3LDYuMDM1LDAuMTE0QzUuNzA2LDAuMjg3LDUuNSwwLjYyNyw1LjUsMC45OTl2NDAgIGMwLDAuMzcyLDAuMjA2LDAuNzEzLDAuNTM1LDAuODg2YzAuMTQ2LDAuMDc2LDAuMzA2LDAuMTE0LDAuNDY1LDAuMTE0YzAuMTk5LDAsMC4zOTctMC4wNiwwLjU2OC0wLjE3N2wyOS0yMCAgYzAuMjcxLTAuMTg3LDAuNDMyLTAuNDk0LDAuNDMyLTAuODIzUzM2LjMzOCwyMC4zNjMsMzYuMDY4LDIwLjE3NnoiIGZpbGw9IiMwMDAwMDAiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMCA1MTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMCA1MTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iZmF2b3JpdGUiPgoJCTxwYXRoIGQ9Ik0yNTUsNDg5LjZsLTM1LjctMzUuN0M4Ni43LDMzNi42LDAsMjU3LjU1LDAsMTYwLjY1QzAsODEuNiw2MS4yLDIwLjQsMTQwLjI1LDIwLjRjNDMuMzUsMCw4Ni43LDIwLjQsMTE0Ljc1LDUzLjU1ICAgIEMyODMuMDUsNDAuOCwzMjYuNCwyMC40LDM2OS43NSwyMC40QzQ0OC44LDIwLjQsNTEwLDgxLjYsNTEwLDE2MC42NWMwLDk2LjktODYuNywxNzUuOTUtMjE5LjMsMjkzLjI1TDI1NSw0ODkuNnoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQzMy41IDQzMy41IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MzMuNSA0MzMuNTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJmaWxlLWRvd25sb2FkIj4KCQk8cGF0aCBkPSJNMzk1LjI1LDE1M2gtMTAyVjBoLTE1M3YxNTNoLTEwMmwxNzguNSwxNzguNUwzOTUuMjUsMTUzeiBNMzguMjUsMzgyLjV2NTFoMzU3di01MUgzOC4yNXoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMS42MjYgNTExLjYyNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjYyNiA1MTEuNjI3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTUwNi4yMDYsMTc5LjAxMkwzNjAuMDI1LDMyLjgzNGMtMy42MTctMy42MTctNy44OTgtNS40MjYtMTIuODQ3LTUuNDI2cy05LjIzMywxLjgwOS0xMi44NDcsNS40MjYgICBjLTMuNjE3LDMuNjE5LTUuNDI4LDcuOTAyLTUuNDI4LDEyLjg1djczLjA4OWgtNjMuOTUzYy0xMzUuNzE2LDAtMjE4Ljk4NCwzOC4zNTQtMjQ5LjgyMywxMTUuMDZDNS4wNDIsMjU5LjMzNSwwLDI5MS4wMywwLDMyOC45MDcgICBjMCwzMS41OTQsMTIuMDg3LDc0LjUxNCwzNi4yNTksMTI4Ljc2MmMwLjU3LDEuMzM1LDEuNTY2LDMuNjE0LDIuOTk2LDYuODQ5YzEuNDI5LDMuMjMzLDIuNzEyLDYuMDg4LDMuODU0LDguNTY1ICAgYzEuMTQ2LDIuNDcxLDIuMzg0LDQuNTY1LDMuNzE1LDYuMjc2YzIuMjgyLDMuMjM3LDQuOTQ4LDQuODU5LDcuOTk0LDQuODU5YzIuODU1LDAsNS4wOTItMC45NTEsNi43MTEtMi44NTQgICBjMS42MTUtMS45MDIsMi40MjQtNC4yODQsMi40MjQtNy4xMzJjMC0xLjcxOC0wLjIzOC00LjIzNi0wLjcxNS03LjU2OWMtMC40NzYtMy4zMzMtMC43MTUtNS41NjQtMC43MTUtNi43MDggICBjLTAuOTUzLTEyLjkzOC0xLjQyOS0yNC42NTMtMS40MjktMzUuMTE0YzAtMTkuMjIzLDEuNjY4LTM2LjQ0OSw0Ljk5Ni01MS42NzVjMy4zMzMtMTUuMjI5LDcuOTQ4LTI4LjQwNywxMy44NS0zOS41NDMgICBjNS45MDEtMTEuMTQsMTMuNTEyLTIwLjc0NSwyMi44NDEtMjguODM1YzkuMzI1LTguMDksMTkuMzY0LTE0LjcwMiwzMC4xMTgtMTkuODQyYzEwLjc1Ni01LjE0MSwyMy40MTMtOS4xODYsMzcuOTc0LTEyLjEzNSAgIGMxNC41Ni0yLjk1LDI5LjIxNS00Ljk5Nyw0My45NjgtNi4xNHMzMS40NTUtMS43MTEsNTAuMTA5LTEuNzExaDYzLjk1M3Y3My4wOTFjMCw0Ljk0OCwxLjgwNyw5LjIzMiw1LjQyMSwxMi44NDcgICBjMy42MiwzLjYxMyw3LjkwMSw1LjQyNCwxMi44NDcsNS40MjRjNC45NDgsMCw5LjIzMi0xLjgxMSwxMi44NTQtNS40MjRsMTQ2LjE3OC0xNDYuMTgzYzMuNjE3LTMuNjE3LDUuNDI0LTcuODk4LDUuNDI0LTEyLjg0NyAgIEM1MTEuNjI2LDE4Ni45Miw1MDkuODIsMTgyLjYzNiw1MDYuMjA2LDE3OS4wMTJ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+        </div>
+      </div>
+      
+      <div class="card-central">
+        <img class="cerdcentral__miniatura" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Eyjafjallaj%C3%B6kull.jpeg" width="270px" alt="">
+        <div class="cardcentral__conteudo">
+            <p>Iceland 2017</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, amet, aliquam, ut, minima illo libero facere maxime ea iusto ullam tempore.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="cardcentral__acoes">
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQxLjk5OSA0MS45OTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQxLjk5OSA0MS45OTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTM2LjA2OCwyMC4xNzZsLTI5LTIwQzYuNzYxLTAuMDM1LDYuMzYzLTAuMDU3LDYuMDM1LDAuMTE0QzUuNzA2LDAuMjg3LDUuNSwwLjYyNyw1LjUsMC45OTl2NDAgIGMwLDAuMzcyLDAuMjA2LDAuNzEzLDAuNTM1LDAuODg2YzAuMTQ2LDAuMDc2LDAuMzA2LDAuMTE0LDAuNDY1LDAuMTE0YzAuMTk5LDAsMC4zOTctMC4wNiwwLjU2OC0wLjE3N2wyOS0yMCAgYzAuMjcxLTAuMTg3LDAuNDMyLTAuNDk0LDAuNDMyLTAuODIzUzM2LjMzOCwyMC4zNjMsMzYuMDY4LDIwLjE3NnoiIGZpbGw9IiMwMDAwMDAiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMCA1MTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMCA1MTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iZmF2b3JpdGUiPgoJCTxwYXRoIGQ9Ik0yNTUsNDg5LjZsLTM1LjctMzUuN0M4Ni43LDMzNi42LDAsMjU3LjU1LDAsMTYwLjY1QzAsODEuNiw2MS4yLDIwLjQsMTQwLjI1LDIwLjRjNDMuMzUsMCw4Ni43LDIwLjQsMTE0Ljc1LDUzLjU1ICAgIEMyODMuMDUsNDAuOCwzMjYuNCwyMC40LDM2OS43NSwyMC40QzQ0OC44LDIwLjQsNTEwLDgxLjYsNTEwLDE2MC42NWMwLDk2LjktODYuNywxNzUuOTUtMjE5LjMsMjkzLjI1TDI1NSw0ODkuNnoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQzMy41IDQzMy41IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MzMuNSA0MzMuNTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJmaWxlLWRvd25sb2FkIj4KCQk8cGF0aCBkPSJNMzk1LjI1LDE1M2gtMTAyVjBoLTE1M3YxNTNoLTEwMmwxNzguNSwxNzguNUwzOTUuMjUsMTUzeiBNMzguMjUsMzgyLjV2NTFoMzU3di01MUgzOC4yNXoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMS42MjYgNTExLjYyNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjYyNiA1MTEuNjI3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTUwNi4yMDYsMTc5LjAxMkwzNjAuMDI1LDMyLjgzNGMtMy42MTctMy42MTctNy44OTgtNS40MjYtMTIuODQ3LTUuNDI2cy05LjIzMywxLjgwOS0xMi44NDcsNS40MjYgICBjLTMuNjE3LDMuNjE5LTUuNDI4LDcuOTAyLTUuNDI4LDEyLjg1djczLjA4OWgtNjMuOTUzYy0xMzUuNzE2LDAtMjE4Ljk4NCwzOC4zNTQtMjQ5LjgyMywxMTUuMDZDNS4wNDIsMjU5LjMzNSwwLDI5MS4wMywwLDMyOC45MDcgICBjMCwzMS41OTQsMTIuMDg3LDc0LjUxNCwzNi4yNTksMTI4Ljc2MmMwLjU3LDEuMzM1LDEuNTY2LDMuNjE0LDIuOTk2LDYuODQ5YzEuNDI5LDMuMjMzLDIuNzEyLDYuMDg4LDMuODU0LDguNTY1ICAgYzEuMTQ2LDIuNDcxLDIuMzg0LDQuNTY1LDMuNzE1LDYuMjc2YzIuMjgyLDMuMjM3LDQuOTQ4LDQuODU5LDcuOTk0LDQuODU5YzIuODU1LDAsNS4wOTItMC45NTEsNi43MTEtMi44NTQgICBjMS42MTUtMS45MDIsMi40MjQtNC4yODQsMi40MjQtNy4xMzJjMC0xLjcxOC0wLjIzOC00LjIzNi0wLjcxNS03LjU2OWMtMC40NzYtMy4zMzMtMC43MTUtNS41NjQtMC43MTUtNi43MDggICBjLTAuOTUzLTEyLjkzOC0xLjQyOS0yNC42NTMtMS40MjktMzUuMTE0YzAtMTkuMjIzLDEuNjY4LTM2LjQ0OSw0Ljk5Ni01MS42NzVjMy4zMzMtMTUuMjI5LDcuOTQ4LTI4LjQwNywxMy44NS0zOS41NDMgICBjNS45MDEtMTEuMTQsMTMuNTEyLTIwLjc0NSwyMi44NDEtMjguODM1YzkuMzI1LTguMDksMTkuMzY0LTE0LjcwMiwzMC4xMTgtMTkuODQyYzEwLjc1Ni01LjE0MSwyMy40MTMtOS4xODYsMzcuOTc0LTEyLjEzNSAgIGMxNC41Ni0yLjk1LDI5LjIxNS00Ljk5Nyw0My45NjgtNi4xNHMzMS40NTUtMS43MTEsNTAuMTA5LTEuNzExaDYzLjk1M3Y3My4wOTFjMCw0Ljk0OCwxLjgwNyw5LjIzMiw1LjQyMSwxMi44NDcgICBjMy42MiwzLjYxMyw3LjkwMSw1LjQyNCwxMi44NDcsNS40MjRjNC45NDgsMCw5LjIzMi0xLjgxMSwxMi44NTQtNS40MjRsMTQ2LjE3OC0xNDYuMTgzYzMuNjE3LTMuNjE3LDUuNDI0LTcuODk4LDUuNDI0LTEyLjg0NyAgIEM1MTEuNjI2LDE4Ni45Miw1MDkuODIsMTgyLjYzNiw1MDYuMjA2LDE3OS4wMTJ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+        </div>
+      </div>
+      <div class="card-central">
+        <img class="cerdcentral__miniatura" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Eyjafjallaj%C3%B6kull.jpeg" width="270px" alt="">
+        <div class="cardcentral__conteudo">
+            <p>Iceland 2017</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, amet, aliquam, ut, minima illo libero facere maxime ea iusto ullam tempore.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="cardcentral__acoes">
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQxLjk5OSA0MS45OTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQxLjk5OSA0MS45OTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTM2LjA2OCwyMC4xNzZsLTI5LTIwQzYuNzYxLTAuMDM1LDYuMzYzLTAuMDU3LDYuMDM1LDAuMTE0QzUuNzA2LDAuMjg3LDUuNSwwLjYyNyw1LjUsMC45OTl2NDAgIGMwLDAuMzcyLDAuMjA2LDAuNzEzLDAuNTM1LDAuODg2YzAuMTQ2LDAuMDc2LDAuMzA2LDAuMTE0LDAuNDY1LDAuMTE0YzAuMTk5LDAsMC4zOTctMC4wNiwwLjU2OC0wLjE3N2wyOS0yMCAgYzAuMjcxLTAuMTg3LDAuNDMyLTAuNDk0LDAuNDMyLTAuODIzUzM2LjMzOCwyMC4zNjMsMzYuMDY4LDIwLjE3NnoiIGZpbGw9IiMwMDAwMDAiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMCA1MTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMCA1MTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iZmF2b3JpdGUiPgoJCTxwYXRoIGQ9Ik0yNTUsNDg5LjZsLTM1LjctMzUuN0M4Ni43LDMzNi42LDAsMjU3LjU1LDAsMTYwLjY1QzAsODEuNiw2MS4yLDIwLjQsMTQwLjI1LDIwLjRjNDMuMzUsMCw4Ni43LDIwLjQsMTE0Ljc1LDUzLjU1ICAgIEMyODMuMDUsNDAuOCwzMjYuNCwyMC40LDM2OS43NSwyMC40QzQ0OC44LDIwLjQsNTEwLDgxLjYsNTEwLDE2MC42NWMwLDk2LjktODYuNywxNzUuOTUtMjE5LjMsMjkzLjI1TDI1NSw0ODkuNnoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQzMy41IDQzMy41IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA0MzMuNSA0MzMuNTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJmaWxlLWRvd25sb2FkIj4KCQk8cGF0aCBkPSJNMzk1LjI1LDE1M2gtMTAyVjBoLTE1M3YxNTNoLTEwMmwxNzguNSwxNzguNUwzOTUuMjUsMTUzeiBNMzguMjUsMzgyLjV2NTFoMzU3di01MUgzOC4yNXoiIGZpbGw9IiMwMDAwMDAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+          <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMS42MjYgNTExLjYyNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjYyNiA1MTEuNjI3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTUwNi4yMDYsMTc5LjAxMkwzNjAuMDI1LDMyLjgzNGMtMy42MTctMy42MTctNy44OTgtNS40MjYtMTIuODQ3LTUuNDI2cy05LjIzMywxLjgwOS0xMi44NDcsNS40MjYgICBjLTMuNjE3LDMuNjE5LTUuNDI4LDcuOTAyLTUuNDI4LDEyLjg1djczLjA4OWgtNjMuOTUzYy0xMzUuNzE2LDAtMjE4Ljk4NCwzOC4zNTQtMjQ5LjgyMywxMTUuMDZDNS4wNDIsMjU5LjMzNSwwLDI5MS4wMywwLDMyOC45MDcgICBjMCwzMS41OTQsMTIuMDg3LDc0LjUxNCwzNi4yNTksMTI4Ljc2MmMwLjU3LDEuMzM1LDEuNTY2LDMuNjE0LDIuOTk2LDYuODQ5YzEuNDI5LDMuMjMzLDIuNzEyLDYuMDg4LDMuODU0LDguNTY1ICAgYzEuMTQ2LDIuNDcxLDIuMzg0LDQuNTY1LDMuNzE1LDYuMjc2YzIuMjgyLDMuMjM3LDQuOTQ4LDQuODU5LDcuOTk0LDQuODU5YzIuODU1LDAsNS4wOTItMC45NTEsNi43MTEtMi44NTQgICBjMS42MTUtMS45MDIsMi40MjQtNC4yODQsMi40MjQtNy4xMzJjMC0xLjcxOC0wLjIzOC00LjIzNi0wLjcxNS03LjU2OWMtMC40NzYtMy4zMzMtMC43MTUtNS41NjQtMC43MTUtNi43MDggICBjLTAuOTUzLTEyLjkzOC0xLjQyOS0yNC42NTMtMS40MjktMzUuMTE0YzAtMTkuMjIzLDEuNjY4LTM2LjQ0OSw0Ljk5Ni01MS42NzVjMy4zMzMtMTUuMjI5LDcuOTQ4LTI4LjQwNywxMy44NS0zOS41NDMgICBjNS45MDEtMTEuMTQsMTMuNTEyLTIwLjc0NSwyMi44NDEtMjguODM1YzkuMzI1LTguMDksMTkuMzY0LTE0LjcwMiwzMC4xMTgtMTkuODQyYzEwLjc1Ni01LjE0MSwyMy40MTMtOS4xODYsMzcuOTc0LTEyLjEzNSAgIGMxNC41Ni0yLjk1LDI5LjIxNS00Ljk5Nyw0My45NjgtNi4xNHMzMS40NTUtMS43MTEsNTAuMTA5LTEuNzExaDYzLjk1M3Y3My4wOTFjMCw0Ljk0OCwxLjgwNyw5LjIzMiw1LjQyMSwxMi44NDcgICBjMy42MiwzLjYxMyw3LjkwMSw1LjQyNCwxMi44NDcsNS40MjRjNC45NDgsMCw5LjIzMi0xLjgxMSwxMi44NTQtNS40MjRsMTQ2LjE3OC0xNDYuMTgzYzMuNjE3LTMuNjE3LDUuNDI0LTcuODk4LDUuNDI0LTEyLjg0NyAgIEM1MTEuNjI2LDE4Ni45Miw1MDkuODIsMTgyLjYzNiw1MDYuMjA2LDE3OS4wMTJ6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+        </div>
+      </div>
+    </section>
+    
+  <div class="section-thema">
+		<div>
+		<p class="text-tema">gerelaterde thema's</p>
+		</div>
+		<figure class="image-tema">
+			<img src="iceberg.png" alt="iceberg">
+			<figcaption id="iceberg">het klimaat</figcaption>
+		</figure>
+		<figure class="image-tema">
+			<img src="eolic.png" alt="eolic energy">
+			<figcaption id="eolic">duurzame<br>energie</figcaption>
+		</figure>
+		<figure class="image-tema">
+			<img src="sea.png" alt="sea">
+			<figcaption id="sea">global<br>warming</figcaption>
+		</figure>
+		<figure class="image-tema">
+			<img src="forrest.png" alt="forrest">
+			<figcaption id="forrest">zure regen</figcaption>
+		</figure>
+		<figure class="image-tema">
+			<img src="fog.png" alt="fog clouds">
+			<figcaption id="fog">lucht-<br>vervuiling</figcaption>
+		</figure>
+	</div>
+	
+	<footer class="footer">
+	    	<nav>
+	    		<ul>
+	    			<a href="#"> <li>Home</li></a>
+	    			<a href="#"> <li>Thema's</li></a>
+	    			<a href="#"> <li>Colecties</li></a>
+	    			<a href="#"> <li>Dossiers</li></a>
+	    			<a href="#"> <li>Kanalen</li></a>
+	    		</ul>
+	    	</nav>
+	    	<div class="container-footer-buttons">
+		    	<button class="social-media twitter">
+		    	</button>
+		    	<button class="social-media facebook">
+		    	</button>  
+	    	</div>  	
+	    </footer>
+    </body>
+</html>
